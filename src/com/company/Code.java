@@ -12,12 +12,18 @@ public class Code {
     Scanner Model = new Scanner(System.in);
     Scanner Type = new Scanner(System.in);
     int Speed  = 0;
+    int year = Year.nextInt();
+    String input = Class.nextLine();
+
 
     public void init (){
 
     }
 
     public void premadeCar(){
-        PremadeCar.premade();
+        premadeCar.premade();
+    }
+    public void custom(){
+        custom.custom();
     }
 }
