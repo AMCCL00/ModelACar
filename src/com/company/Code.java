@@ -4,24 +4,27 @@ import java.util.Scanner;
 public class Code {
     PremadeCar premadeCar = new PremadeCar();
     Custom custom = new Custom();
+    Driving Driving = new Driving();
 
-    Scanner Year = new Scanner(System.in);
-    Scanner Color = new Scanner(System.in);
-    Scanner Make = new Scanner(System.in);
-    Scanner Model = new Scanner(System.in);
-    Scanner Type = new Scanner(System.in);
-    int Speed  = 0;
-    int year = Year.nextInt();
-
+    Scanner CoP  = new Scanner (System.in);
+    String car = "";
+    String premade = "2016 Silver Hyundai Sonata";
+    String Custom = "";
 
     public void init (){
-
-    }
-
-    public void premadeCar(){
-        premadeCar.premade();
-    }
-    public void custom(){
-        custom.custom();
+        MessageUtil.Class();
+        String CorP = CoP.nextLine();
+        if (CorP.equalsIgnoreCase("Prebuilt")){
+            premadeCar.premade();
+            car = premade;
+        }
+        else if (CorP.equalsIgnoreCase("Custom")){
+            custom.custom();
+            car = Custom;
+        }
+        else{
+            init();
+        }
+        Driving.driving();
     }
 }

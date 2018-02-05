@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Code Code = new Code();
-        Code.init();
+        Code code = new Code();
+        code.init();
     }
 }
