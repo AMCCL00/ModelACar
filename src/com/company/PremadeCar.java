@@ -5,10 +5,10 @@ public class PremadeCar extends Code{
     String premadeMake = "Hyundai";
     String premadeModel = "Sonata";
     int premadeYear = 2016;
-    String premade = premadeColor + premadeYear + premadeMake + premadeModel;
+    String premade = premadeColor + " " + premadeYear + " " + premadeMake + " " + premadeModel;
 
     public void premade(){
-        System.out.println("The premade car is a " + premadeColor + premadeYear + premadeMake + premadeModel);
+        System.out.println("The premade car is a " + premadeColor + " " + premadeYear + " " + premadeMake + " " + premadeModel);
     }
 
 }

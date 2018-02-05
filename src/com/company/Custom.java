@@ -21,7 +21,7 @@ public class Custom extends Code{
         MessageUtil.make();
         String make = Make.nextLine();
 
-        String Custom = color + year + make + model;
+        String Custom = color + " " + year + " " + make + " " +model;
 
         MessageUtil.custom(model,year,color,make);
     }

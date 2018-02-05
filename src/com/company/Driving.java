@@ -13,13 +13,13 @@ public class Driving extends Code {
         switch(Speedup) {
             case 0:
                 // Accelerate
-                speed += 10;
-                gas -= 3;
+                speed += 5;
+                gas -= 5;
                 break;
             case 1:
                 //Decelerate
-                speed -= 10;
-                gas -= 3;
+                speed -= 5;
+                gas -= 5;
                 break;
             case 2:
                 //Fill gas tank

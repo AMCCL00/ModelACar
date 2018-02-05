@@ -18,7 +18,7 @@ public class MessageUtil {
         System.out.println("What is the make of your car? \n");
     }
     public static void custom(String model, int year, String color, String make){
-        System.out.println("You made a " + color + year + make + model);
+        System.out.println("You made a " + color + " " + year + " " + make + " " + model);
     }
     public static void speedup(String car, int speed, int gas){
         System.out.println("The current car is a " + car + " It is going " + speed + " MPH and has " + gas + "% of its gas left. ");
